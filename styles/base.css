@@ -1,0 +1,100 @@
+/* CSS Document */
+body {
+  font: 10pt "Comic Sans MS", Comic Sans, Georgia, "Times New Roman", Times, serif;
+  color:#fff;
+  padding:0;
+  margin:0;
+  background-color:#000;
+}
+h1,h2,h3,h4,h5,h6{
+  color:#963;
+  font-family: Impact, Impact5, Charcoal6, sans-serif;
+  text-transform:lowercase;
+}
+a, a:visited, a:active{
+  color:#fff;
+  text-decoration:none;
+  border-bottom: 1px dashed #fff;
+}
+a:hover{
+  color:#999;
+  border-bottom: 1px dashed #999;
+}
+#top{
+  height: 150px;
+  width: 100%;
+}
+#top h1 {
+  background: url(/images/site/top.jpg) no-repeat 0px 0px;
+  padding: 0 0 0 110px;
+  margin:0;
+  font-size:90px;
+  line-height:100px;
+}
+#top h1 a , #top h1 a:hover{
+  border:none;
+  color:#fff;
+}
+#top ul {
+  padding: 0 0 0 100px;
+  margin: 0; 
+}
+#top ul li { 
+  padding: 0 0 0 10px;
+  margin: 0; 
+  display: inline;
+}
+
+#mid {
+  padding: 0 0 0 110px;
+  margin: 0; 
+}
+#mid #area{ width: 800px;}
+
+#album_navigation{ text-align: right; float:right;}
+h2 { 
+  color:#963; padding:2px; margin:0
+}
+#album_navigation a, #album_navigation strong { 
+  font: 10pt Georgia, "Times New Roman", Times, serif;
+  display:inline;
+}
+#photo_large {
+  padding: 30px 0;
+}
+#photo_large p{
+  padding: 20px 0;
+  color:#ccc;
+}
+#photo_large img{
+  background: #fff;
+  padding: 3px 3px 5px;
+  border: 2px solid #333;
+}
+#photo_large form{
+  color:#666;
+}
+#photo_large input{
+  background: #000;
+  color:#333;
+  border: 1px solid #333;
+  width:300px;
+}
+#album_list{
+ padding: 30px 0;
+}
+#album_list .album{
+ padding: 20px 0;
+ clear:both;
+ height:180px;
+}
+#album_list .album a.img {  position:absolute; float:left; display:block; border:0;}
+#album_list .album .words { padding: 0 0 0 140px; }
+#album_list .album h2 { padding: 0; color:#963; margin:0 }
+#album_list .album h2 a{ padding: 0; color:#963; margin:0; border:0;}
+#album_list .album h2 a:hover{ color:#fff;}
+#image_list {
+ padding: 30px 0;
+ clear:both;
+}
+#image_list a { float:left; padding: 5px 20px 15px 0; border:0; }
